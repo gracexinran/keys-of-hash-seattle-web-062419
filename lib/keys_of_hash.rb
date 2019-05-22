@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*arguments)
     # code goes here
-    p arguments
+    Hash[:animals].fetch[arguments]
 
   end
 end
