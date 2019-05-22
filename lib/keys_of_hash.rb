@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*arguments)
     # code goes here
-    Hash.fetch(arguments)
+    fetch(arguments)
 
   end
 end
